@@ -1,0 +1,17 @@
+git init
+git add .
+git commit -m "Initial commit - Gym & Nutrition Tracker PWA"
+git branch -M main
+git remote add origin https://github.com/your-username/your-repo-name.git
+git push -u origin main
+{
+  "name": "gym-nutrition-tracker",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  }
+}
